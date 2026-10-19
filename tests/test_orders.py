@@ -3,7 +3,7 @@
 from decimal import Decimal
 
 import pytest
-from readable_orders import OrderStatus, change_status, create_order
+from src import OrderStatus, change_status, create_order
 
 
 def test_t01_regular_order():
