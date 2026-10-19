@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "ruff.lint.run": "onSave",
+  "python.analysis.typeCheckingMode": "basic",
+  "breadcrumbs.enabled": true,
+  "editor.guides.indentation": true
+}
