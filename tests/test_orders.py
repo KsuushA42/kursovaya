@@ -3,6 +3,7 @@
 from decimal import Decimal
 
 import pytest
+
 from src import OrderStatus, change_status, create_order
 
 
