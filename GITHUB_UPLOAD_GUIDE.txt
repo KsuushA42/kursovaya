@@ -1,0 +1,17 @@
+КАК ЗАГРУЗИТЬ ПРОЕКТ НА GITHUB (Windows)
+
+Вариант, при котором папки точно сохранятся:
+1. Скачайте ZIP-архив и распакуйте его, НЕ загружайте сам ZIP как единственный файл.
+2. Установите GitHub Desktop с официального сайта https://desktop.github.com/ и войдите в тот же GitHub-аккаунт.
+3. File -> Add Local Repository -> Choose... и укажите папку с файлами проекта.
+4. Если появится «This directory does not appear to be a Git repository», нажмите «Create a repository here».
+5. Если GitHub Desktop предложит сделать коммит, укажите «Initial coursework project» и нажмите Commit to main.
+6. Нажмите Publish repository. Введите название, например coursework-code-readability, и снимите галочку Keep this code private, если репозиторий должен быть публичным.
+7. Проверьте на сайте, что существуют папки src, tests, examples, .github и .vscode.
+8. Откройте вкладку Actions и дождитесь результата «Code quality and tests».
+9. Пришлите ссылку на новый репозиторий в ChatGPT: после проверки можно добавить настоящую ссылку и QR-код в курсовую.
+
+Важно: не загружайте этот проект в прежний репозиторий на другую тему.
+GitHub Actions запускается ТОЛЬКО при наличии файла .github/workflows/quality.yml в правильной папке.
+
+Альтернатива для пользователей Git: создать новый пустой репозиторий и отправить все папки командой git push.
