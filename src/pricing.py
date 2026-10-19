@@ -1,6 +1,6 @@
 """Расчёт итоговой стоимости отдельно от ввода и управления статусами."""
 
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 
 
 def calculate_total(
